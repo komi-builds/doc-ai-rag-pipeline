@@ -1,0 +1,54 @@
+# AI assistant and agent files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.cursor/
+.cursorrules
+.cursorignore
+.windsurfrules
+.aider*
+.copilot/
+.github/copilot-instructions.md
+.continue/
+AGENTS.md
+GEMINI.md
+.gemini/
+.codeium/
+.tabnine/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Pipeline artifacts (generated data, vector stores, model caches)
+vector_store/
+chroma/
+*.faiss
+*.index
+.cache/
+models/
+outputs/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
+
+# Built indexes, answer cache, and source documents
+# (copyrighted books must never be committed; only the public-domain NIST demo PDF is tracked)
+index/
+demo/index/
+.rag_cache/
+*.pdf
+!demo/nist.sp.800-61r3.pdf
